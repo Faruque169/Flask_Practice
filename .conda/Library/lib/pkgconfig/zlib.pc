@@ -1,0 +1,13 @@
+prefix=e:/my_git/Projects/Generator Calculator/.conda/Library
+exec_prefix=e:/my_git/Projects/Generator Calculator/.conda/Library
+libdir=e:/my_git/Projects/Generator Calculator/.conda/Library/lib
+sharedlibdir=e:/my_git/Projects/Generator Calculator/.conda/Library/lib
+includedir=e:/my_git/Projects/Generator Calculator/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
